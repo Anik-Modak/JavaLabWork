@@ -6,7 +6,7 @@ import java.util.Date;
 public class GreetingRunnable implements Runnable
 {
 	private static final int REPETITIONS = 10;
-	private static final int DELAY = 1000;
+	private static final int DELAY = 10000;
 	private String greeting;
 
 	public GreetingRunnable(String aGreeting)
@@ -22,7 +22,7 @@ public class GreetingRunnable implements Runnable
 			{
 				Date now = new Date();
 				System.out.println(now + " " + greeting);
-				Thread.sleep(DELAY);
+				Thread.sleep(1);
 			}
 		}
 		catch (InterruptedException exception)
