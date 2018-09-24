@@ -16,6 +16,7 @@ public class BankAccount
 		System.out.println(", new balance is " + newBalance);
 		balance = newBalance;
 	}
+	
 	public void withdraw(double amount)
 	{
 		System.out.print("Withdrawing " + amount);

@@ -13,6 +13,7 @@ public class WithdrawRunnable implements Runnable
 		amount = anAmount;
 		count = aCount;
 	}
+	
 	public void run()
 	{
 		try
@@ -23,6 +24,9 @@ public class WithdrawRunnable implements Runnable
 				Thread.sleep(DELAY);
 			}
 		}
-		catch (InterruptedException exception) {}
+		catch (InterruptedException exception) 
+		{
+			System.out.println("Interrupted");
+		}
 	}
 }

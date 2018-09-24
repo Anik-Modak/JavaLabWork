@@ -13,6 +13,7 @@ public class DepositRunnable implements Runnable
 		amount = anAmount;
 		count = aCount;
 	}
+	
 	public void run()
 	{
 		try
