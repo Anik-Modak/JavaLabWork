@@ -9,5 +9,4 @@ public class MyThreadRunner
 		t.start();
 		t.interrupt();
 	}
-
 }
