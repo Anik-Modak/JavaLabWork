@@ -22,8 +22,8 @@ public class MainClassE19_3
 		}
 		
 		wordList.stream()
-				.filter(w -> w.contains(the))
-				.forEach(System.out :: println);
+			.filter(w -> w.contains(the))
+			.forEach(System.out :: println);
 		
 	}
 }
