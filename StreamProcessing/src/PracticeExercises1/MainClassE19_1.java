@@ -8,7 +8,6 @@ import java.util.Scanner;
 
 public class MainClassE19_1 
 {
-
 	public static void main(String[] args) throws IOException
 	{
 		final String the = "the";
