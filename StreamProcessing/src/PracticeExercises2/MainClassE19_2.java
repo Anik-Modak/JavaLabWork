@@ -25,6 +25,6 @@ public class MainClassE19_2
 				.filter(w -> w.equals(the))
 				.count();
 		
-		System.out.println("Total'the' words are: " + count);
+		System.out.println("Total words are: " + count);
 	}
 }
